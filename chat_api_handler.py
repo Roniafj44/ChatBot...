@@ -17,7 +17,7 @@ class OpenAIChatAPIHandler:
     def api_call(cls, chat_history):
 
         data = {
-            "model": st.session_state[gpt-4o-mini], # type: ignore
+            "model": st.session_state[gpt-4-mini], # type: ignore
             "messages" : chat_history,
             "stream" : False
         }
